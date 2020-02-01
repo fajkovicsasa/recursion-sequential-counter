@@ -24,7 +24,7 @@ public class CounterTest {
     }
 
     @BeforeEach
-    public void clear() throws IOException {
+    public void clear() {
         outContent.reset();
     }
 
