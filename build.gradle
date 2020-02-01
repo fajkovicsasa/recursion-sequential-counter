@@ -26,5 +26,5 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClassName = 'com.kayak.App'
+    mainClassName = 'com.kayak.sequential_counter.App'
 }
