@@ -3,7 +3,9 @@
  */
 package com.kayak.sequential_counter.counter;
 
-public class Counter {
+public final class Counter {
+
+    private Counter() {}
 
     public static void countUp(int start, int end) {
         System.out.println(start);
