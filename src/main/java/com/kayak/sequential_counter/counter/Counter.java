@@ -7,11 +7,21 @@ public final class Counter {
 
     private Counter() {}
 
+    /**
+     * Will output all the integers from start value to the end value
+     * @param start
+     * @param end
+     */
     public static void countUp(int start, int end) {
         System.out.println(start);
         if (start != end) countUp(start + 1, end);
     }
 
+    /**
+     * Will outpput all the integer from start value to end value and back to start value
+     * @param start
+     * @param end
+     */
     public static void countUpAndDown(int start, int end) {
         System.out.println(start);
         if (end == start) return;
